@@ -21,7 +21,7 @@ export class AddTodoComponent implements OnInit {
       title: this.title,
       completed: false
     }
-    console.log(`The todo being sent is: ${ todo.title } and it is marked as ${ todo.completed }`);
+    console.log(todo);
     //have to emit this upward because need access to the 
     //direct todos in the todo component
     this.addTodo.emit(todo);
