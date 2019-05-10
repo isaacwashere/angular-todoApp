@@ -9,4 +9,6 @@ This is a simple Todo App using Angular Framework
 
 > type `ng serve` in the terminal 
 
-> open `http://localhost:4200/` (The app will automatically reload if you change any of the source files)
+> open `http://localhost:4200/` 
+
+> REMINDER: (The app will automatically reload if you change any of the source files)
