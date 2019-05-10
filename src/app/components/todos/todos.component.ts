@@ -8,6 +8,7 @@ import { Todo } from '../../models/Todo';
   templateUrl: './todos.component.html',
   styleUrls: ['./todos.component.css']
 })
+
 export class TodosComponent implements OnInit {
   todos:Todo[];
 
@@ -17,6 +18,13 @@ export class TodosComponent implements OnInit {
     this.todoService.getTodos().subscribe(todos => {
       this.todos = todos;
     });
+  }
+
+  deleteTodo(todo:Todo) {
+    //Removes from the UI
+    this.todos = this.todos.filter(t => t.id !== todo.id);
+    //Removes from the server
+    this.todoService.deleteTodo(todo).subscribe();
   }
 }
 //ngOnIniti is like a lifecyle method

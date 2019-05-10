@@ -30,4 +30,3 @@ export class AppModule { }
 
 //This is the entryway to angular
 //angular is comprised of different modules
-

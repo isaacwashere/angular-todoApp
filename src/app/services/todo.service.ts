@@ -23,6 +23,12 @@ export class TodoService {
     //a GET request that is going to return an obervable
     return this.http.get<Todo[]>(`${ this.todosUrl }${ this.todosLimit }`);
   }
+  
+  //Delete Todo
+  deleteTodo(todo:Todo):Observable<Todo> {
+    const url = `${ this.todosUrl }/${ todo.id }`;
+    return this.http.delete<Todo>(url, httpOptions);
+  }
 
   //Toggle Completed (we are making a PUT req here)
   toggleCompleted(todo: Todo):Observable<any> {
