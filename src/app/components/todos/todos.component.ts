@@ -26,7 +26,16 @@ export class TodosComponent implements OnInit {
     //Removes from the server
     this.todoService.deleteTodo(todo).subscribe();
   }
-}
+ 
+  addTodo(todo:Todo) {
+    //1st make a POST req to the server via the service
+    //once we get the observable/response back we are going to 
+    //add it to the UI
+    this.todoService.addTodo(todo).subscribe(todo => {
+      this.todos.push(todo);
+    });    
+  }
+} 
 //ngOnIniti is like a lifecyle method
 //you do not want to use constructor for much
 //try to use constructor to import services
