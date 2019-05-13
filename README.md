@@ -1,5 +1,5 @@
 # TodoApp
-This is a simple Todo App using Angular Framework
+This is a simple Todo App using the Angular Framework
 
 ## How to Run
 
@@ -19,7 +19,7 @@ This is a simple Todo App using Angular Framework
 ## Abilities & Features
 
 * A user can create a new Todo item and it will show in the UI and be pseudo-sent to the JSON Placeholder API
-* A user can toggle a Todo item's completion status in both the UI and in JSON Placeholder API
+* A user can toggle a Todo item's completion status in the UI and (for non-user made Todos) in JSON Placeholder API
 * A user can delete a Todo item in UI and in JSON Placeholder API
 
 
@@ -31,7 +31,7 @@ This is a simple Todo App using Angular Framework
 | Http Client Module   | Make GET Req (fetch Todos), DELETE Req (delete a Todo item), POST Req (create a Todo item) and PUT Req (toggle the completion status) |
 
 * This is first time using Angular 
-* Todo creation and update is sent to JSON Placeholer API (however, because it is not a backend that allows for editing, toggle complete only works in the UI for non-user made todo items)
+* Todo creation and update is sent to JSON Placeholer API (however, because it is not a backend that allows for editing, for user-made todos, toggle complete only works in the UI and not backend)
 
 
 ## Future Implementation(s)
