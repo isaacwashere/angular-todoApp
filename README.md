@@ -27,7 +27,7 @@ This is a simple Todo App using the Angular Framework
 
 | Technology/Function  | Purpose                                                                                                                               |
 | -------------------- |:-------------------------------------------------------------------------------------------------------------------------------------:|
-| JSON Placeholder     | Receive Toodos, to mark a Todo as complete and to delete Todos                                                                        |
+| JSON Placeholder     | Receive Todos, to mark a Todo as complete and to delete Todos                                                                         |
 | Http Client Module   | Make GET Req (fetch Todos), DELETE Req (delete a Todo item), POST Req (create a Todo item) and PUT Req (toggle the completion status) |
 
 * This is first time using Angular 
