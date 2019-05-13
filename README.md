@@ -5,9 +5,11 @@ This is a simple Todo App using Angular Framework
 
 1. Open the directory in your terminal 
 
-2. Do the Following 
+2. Start the server 
 
 > type `ng serve` in the terminal 
+
+3. View in web browser
 
 > open `http://localhost:4200/` 
 
@@ -25,8 +27,8 @@ This is a simple Todo App using Angular Framework
 
 | Technology/Function  | Purpose                                                                                                                                  |
 | -------------------- |:----------------------------------------------------------------------------------------------------------------------------------------:|
-| JSON Placeholder     | To receive Toodos, to mark a Todo as complete and to delete Todos                                                                        |
-| Http Client Module   | To make GET Req (fetch Todos), DELETE Req (delete a Todo item), POST Req (create a Todo item) and PUT Req (toggle the completion status) |
+| JSON Placeholder     | Receive Toodos, to mark a Todo as complete and to delete Todos                                                                        |
+| Http Client Module   | Make GET Req (fetch Todos), DELETE Req (delete a Todo item), POST Req (create a Todo item) and PUT Req (toggle the completion status) |
 
 * This is first time using Angular 
 * Todo creation and update is sent to JSON Placeholer API (however, because it is not a backend that allows for editing, toggle complete only works in UI)
